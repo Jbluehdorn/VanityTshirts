@@ -18,6 +18,12 @@ Route::get('/', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+Route::get('/admin', 'AdminController@index');
+Route::get('/admin/employees', 'EmployeeController@all');
+Route::get('/admin/employees/new', 'EmployeeController@newForm');
+Route::get('/admin/employees/{emp}', 'EmployeeController@show');
+
 Route::get('/about', 'HomeController@about');
 Route::get('/products', 'HomeController@products');
 Route::get('/shopping-cart', 'HomeController@cart');
