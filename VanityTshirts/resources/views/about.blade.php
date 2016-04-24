@@ -9,8 +9,9 @@
 
                 <div class="panel-body">
                     Employee directory
-                    <img src="/img/bacon/Love_Bacon.png" alt="I Love Bacon">
+                    
                 </div>
+                
             </div>
         </div>
     </div>
