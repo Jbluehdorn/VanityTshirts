@@ -7,9 +7,9 @@
             <div class="panel panel-default">
                 <div class="panel-heading"><h1>Welcome</h1></div>
 
-                <div class="panel-body">
+<!--                <div class="panel-body">
                     Your Application's Landing Page.
-                </div>
+                </div>-->
             </div>
             <img src="{{asset('img/store.png')}}" alt="Vanity Tshirts store" class="img-responsive img-rounded img-thumbnail">            
         </div>

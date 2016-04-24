@@ -15,7 +15,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
 
-    <link rel="shortcut icon" type="image/png" href="{{asset('img/favicon.png')}}">
+    <link rel="shortcut icon" href="{{asset('img/favicon.ico')}}">
     <style>
         body {
             font-family: 'Lato';
