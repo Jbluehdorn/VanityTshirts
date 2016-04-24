@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="167a1a8c-1771-4902-9969-34d53d0bc4be" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/VanityTshirts/app/Http/.routes.php.swp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/VanityTshirts/app/Http/.routes_BASE_13120.php.swp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/VanityTshirts/app/Http/.routes_LOCAL_13120.php.swp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/VanityTshirts/app/Http/.routes_REMOTE_13120.php.swp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/VanityTshirts/app/Http/routes.php.orig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/VanityTshirts/app/Http/routes_BACKUP_13120.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/VanityTshirts/app/Http/routes_BASE_13120.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/VanityTshirts/app/Http/routes_LOCAL_13120.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/VanityTshirts/app/Http/routes_REMOTE_13120.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VanityTshirts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,23 +24,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dashboard.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VanityTshirts/resources/views/admin/dashboard.blade.php">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VanityTshirts/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-              <folding />
+            <state relative-caret-position="475">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <marker date="1461536604830" expanded="false" signature="9:390" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/VanityTshirts/app/Http/routes.php">
+      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/VanityTshirts/app/Http/Controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="625">
+              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               <folding>
-                <marker date="1461536604830" expanded="false" signature="9:390" placeholder="..." />
+                <element signature="e#40#62#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,16 +53,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
               <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016_04_24_172414_create_employee_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VanityTshirts/database/migrations/2016_04_24_172414_create_employee_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -153,6 +137,9 @@
         <option value="$PROJECT_DIR$/VanityTshirts/resources/views/employees/showAll.blade.php" />
         <option value="$PROJECT_DIR$/VanityTshirts/resources/views/employees/new.blade.php" />
         <option value="$PROJECT_DIR$/VanityTshirts/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/VanityTshirts/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/VanityTshirts/config/database.php" />
+        <option value="$PROJECT_DIR$/VanityTshirts/database/database.sqlite" />
       </list>
     </option>
   </component>
@@ -451,7 +438,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nfl_stats" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../auth_test" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
@@ -501,18 +488,18 @@
       <option name="presentableId" value="Default" />
       <updated>1461159482007</updated>
       <workItem from="1461159483304" duration="2839000" />
-      <workItem from="1461510238278" duration="11185000" />
+      <workItem from="1461510238278" duration="12852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14024000" />
+    <option name="totallyTimeSpent" value="15691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1402" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -543,7 +530,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -596,14 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="971">
           <caret line="51" column="66" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VanityTshirts/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -715,10 +696,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/VanityTshirts/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="475">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <marker date="1461536604830" expanded="false" signature="9:390" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VanityTshirts/database/database.sqlite">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VanityTshirts/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VanityTshirts/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="e#40#62#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
