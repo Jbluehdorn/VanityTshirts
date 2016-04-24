@@ -20,3 +20,4 @@ Route::auth();
 Route::get('/home', 'HomeController@index');
 Route::get('/about', 'HomeController@about');
 Route::get('/products', 'HomeController@products');
+Route::get('/shopping-cart', 'HomeController@cart');
