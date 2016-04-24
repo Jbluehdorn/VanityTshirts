@@ -18,11 +18,13 @@ Route::get('/', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+<<<<<<< HEAD
 
 Route::get('/admin', 'AdminController@index');
 Route::get('/admin/employees', 'EmployeeController@all');
 Route::get('/admin/employees/new', 'EmployeeController@newForm');
 Route::get('/admin/employees/{emp}', 'EmployeeController@show');
-
+=======
 Route::get('/about', 'HomeController@about');
 Route::get('/products', 'HomeController@products');
+>>>>>>> e1516f59fa1e4d2b8a2d7e9d103b848db286928d
