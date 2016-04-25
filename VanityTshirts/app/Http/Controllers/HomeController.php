@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\User;
 use App\Http\Requests;
 use Illuminate\Http\Request;
 
@@ -23,7 +23,8 @@ class HomeController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index() {
-        return view('welcome');
+        $query3 = User::orderBy('created_at')->take(3)->get();
+        return view('welcome', compact('query3'));
     }
     
     public function about() {
