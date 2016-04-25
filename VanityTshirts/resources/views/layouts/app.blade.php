@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Vanity T-shirts</title>
 
     <!-- Fonts -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
@@ -17,10 +17,39 @@
 
     <link rel="shortcut icon" href="{{asset('img/favicon.ico')}}">
     <style>
+        html{
+            position: relative;
+            min-height: 100%;
+        }
         body {
             font-family: 'Lato';
+            margin-bottom: 60px;
         }
-
+        #carousel{
+            width:900px;
+            margin-bottom: 20px;
+        }
+        .media{
+            margin-bottom: 25px;
+        }
+        .media-object{
+            height:120px;
+            width: auto;
+        }
+        .cart-img{
+            height:50px;
+            width:auto;
+        }
+        tfoot{
+            font-weight: bold;
+        }
+        footer{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height:60px;
+            background-color:#2e3436;
+        }
         .fa-btn {
             margin-right: 6px;
         }
@@ -41,7 +70,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    Vanity Tshirts
+                    Vanity T-shirts
                 </a>
             </div>
 
@@ -70,6 +99,7 @@
                             </ul>
                         </li>
                     @endif
+                    <li><a href="{{ url('/shopping-cart') }}">Shopping Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -77,7 +107,11 @@
 
     @yield('content')
     
-    
+    <footer class="footer">
+        <div class="container-fluid">
+            <p class="text-muted pull-right">&copy; 2010 - {{ date("Y") }}</p>
+        </div>        
+    </footer>
 
     <!-- JavaScripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

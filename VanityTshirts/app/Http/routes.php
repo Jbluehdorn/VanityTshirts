@@ -26,3 +26,4 @@ Route::get('/admin/employees/{emp}', 'EmployeeController@show');
 
 Route::get('/about', 'HomeController@about');
 Route::get('/products', 'HomeController@products');
+Route::get('/shopping-cart', 'HomeController@cart');
