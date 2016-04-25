@@ -8,7 +8,7 @@
                 <div class="panel-heading"><h1>Products</h1></div>
 
                 <div class="panel-body">
-                    Click a product below to add to your shopping cart.
+                    Choose a product below to add to your shopping cart.
                 </div>
             </div>
             
