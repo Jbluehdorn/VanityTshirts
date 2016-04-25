@@ -13,16 +13,20 @@
                     Employee directory...                    
                 </div>
             </div><!--end panel-->
-        </div>
-        <div class="col-md-12">
+        
             <div class="media">
                 <div class="media-left">
                     <a href="#">
-                        <img class="media-object" src="{{ url:('images/')}}" alt="...">
+                        <img class="media-object" src="{{asset('images/default.png')}}" alt="Employee photo">
                     </a>
                 </div>
                 <div class="media-body">
-                    <h4 class="media-heading">Media heading</h4>
+                    <h4 class="media-heading">Employee of the Month</h4>
+                    Here is some useless information about this employee. Lorem ipsum dolor sit amet, 
+                    commune accumsan quaestio eos ut, ex est oratio persequeris. Cetero sanctus eu vim, 
+                    idque efficiendi mediocritatem et nec. In vix dicam albucius maluisset, cu sed dolorum debitis. 
+                    Vim at adhuc partiendo, mei vocibus apeirian eu. Graeci doming deleniti mel an, per et nullam 
+                    expetendis.
                 </div>
             </div><!--end media-->
         </div>

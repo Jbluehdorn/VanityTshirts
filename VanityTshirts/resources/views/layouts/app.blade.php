@@ -27,6 +27,11 @@
         }
         #carousel{
             width:900px;
+            margin-bottom: 20px;
+        }
+        .media-object{
+            height:100px;
+            width: auto;
         }
         footer{
             position: absolute;
