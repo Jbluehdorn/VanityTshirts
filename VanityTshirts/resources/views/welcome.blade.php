@@ -43,7 +43,7 @@
             <div class="row">
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img src="{{asset('img/geek/pocket_protector.png')}}" alt="Geek Gangster T-shirt">
+                        <img src="{{asset('img/geek/pocket_protector.png')}}" alt="Geek Pocket Protector T-shirt">
                         <div class="caption">
                             <h3>For the Nerd trapped inside all of us!</h3>
                             <p>...</p>

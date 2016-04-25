@@ -36,6 +36,13 @@
             height:120px;
             width: auto;
         }
+        .cart-img{
+            height:50px;
+            width:auto;
+        }
+        tfoot{
+            font-weight: bold;
+        }
         footer{
             position: absolute;
             bottom: 0;
