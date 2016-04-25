@@ -27,4 +27,10 @@ class EmployeeController extends Controller
     public function newForm() {
         return view('employees.new');
     }
+
+    public function newEmployee(Request $request) {
+        $emp = new Employee($request->all());
+
+        $emp->save();
+    }
 }

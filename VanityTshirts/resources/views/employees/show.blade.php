@@ -3,7 +3,7 @@
 @section('content')
     <style>
         .employee-img {
-            height: 150px;
+            max-height: 150px;
         }
     </style>
     <div class="container">
@@ -11,7 +11,7 @@
         <div class="col-xs-2">
             <img src="{{URL::to('/')}}/{{$emp->picture}}"
                  alt="Photo of {{$emp->firstName}} {{$emp->lastName}}"
-                 class="img-thumbnail employee-img" />
+                 class="img-thumbnail img-responsive employee-img" />
         </div>
         <div class="col-xs-10">
             <strong>{{$emp->motto}}</strong>
