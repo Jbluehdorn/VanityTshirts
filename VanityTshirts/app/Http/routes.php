@@ -23,6 +23,7 @@ Route::get('/admin', 'AdminController@index');
 Route::get('/admin/employees', 'EmployeeController@all');
 Route::get('/admin/employees/new', 'EmployeeController@newForm');
 Route::get('/admin/employees/{emp}', 'EmployeeController@show');
+Route::post('/admin/employees/new', 'EmployeeController@newEmployee');
 
 Route::get('/about', 'HomeController@about');
 Route::get('/products', 'HomeController@products');

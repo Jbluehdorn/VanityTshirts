@@ -5,7 +5,7 @@
         <div class="panel panel-default">
             <div class="panel-heading"><h3>New Customer</h3></div>
             <div class="panel-body">
-                <form action="">
+                <form action="/admin/employees/new" method="POST">
                     <div class="row">
                         <div class="form-group col-xs-6">
                             <label for="" class="control-label">First Name:</label>
@@ -42,6 +42,7 @@
                             <textarea class="form-control" name="bio"></textarea>
                         </div>
                     </div>
+                    {{csrf_field()}}
                     <div class="row">
                         <hr />
                         <div class="col-xs-12">
