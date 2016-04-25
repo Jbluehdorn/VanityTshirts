@@ -16,44 +16,7 @@
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
 
     <link rel="shortcut icon" href="{{asset('img/favicon.ico')}}">
-    <style>
-        html{
-            position: relative;
-            min-height: 100%;
-        }
-        body {
-            font-family: 'Lato';
-            margin-bottom: 60px;
-        }
-        #carousel{
-            width:900px;
-            margin-bottom: 20px;
-        }
-        .media{
-            margin-bottom: 25px;
-        }
-        .media-object{
-            height:120px;
-            width: auto;
-        }
-        .cart-img{
-            height:50px;
-            width:auto;
-        }
-        tfoot{
-            font-weight: bold;
-        }
-        footer{
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            height:60px;
-            background-color:#2e3436;
-        }
-        .fa-btn {
-            margin-right: 6px;
-        }
-    </style>
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
 </head>
 <body id="app-layout">
     <nav class="navbar navbar-default navbar-static-top">
