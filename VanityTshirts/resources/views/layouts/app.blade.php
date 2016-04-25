@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Vanity T-shirts</title>
 
     <!-- Fonts -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
@@ -29,8 +29,11 @@
             width:900px;
             margin-bottom: 20px;
         }
+        .media{
+            margin-bottom: 25px;
+        }
         .media-object{
-            height:100px;
+            height:120px;
             width: auto;
         }
         footer{
@@ -60,7 +63,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    Vanity Tshirts
+                    Vanity T-shirts
                 </a>
             </div>
 
