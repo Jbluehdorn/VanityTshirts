@@ -12,16 +12,16 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="{{asset('img/slide1.jpg')}}" alt="Vanity T-shirts Store">
+                        <img class="img-responsive" src="{{asset('img/slide1.jpg')}}" alt="Vanity T-shirts Store">
                     </div>
                     <div class="item">
-                        <img src="{{asset('img/slide2.jpg')}}" alt="Display Wall">
+                        <img class="img-responsive" src="{{asset('img/slide2.jpg')}}" alt="Display Wall">
                     </div>
                     <div class="item">
-                        <img src="{{asset('img/slide3.jpg')}}" alt="Custom Designs">
+                        <img class="img-responsive" src="{{asset('img/slide3.jpg')}}" alt="Custom Designs">
                     </div>
                     <div class="item">
-                        <img src="{{asset('img/slide4.jpg')}}" alt="T-shirt colors">
+                        <img class="img-responsive" src="{{asset('img/slide4.jpg')}}" alt="T-shirt colors">
                     </div>
                 </div>
 
