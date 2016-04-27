@@ -23,7 +23,7 @@ class HomeController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index() {
-        $products = Product::orderBy('created_at')->take(3)->get();
+        $products = Product::orderBy('created_at', 'desc')->take(3)->get();
         return view('welcome', compact('products'));
     }
     
@@ -32,7 +32,8 @@ class HomeController extends Controller
     }
     
     public function products() {
-        return view('products');
+        $products = Product::orderBy('price')->get();
+        return view('products', compact('products'));
     }
     public function cart() {
         return view('shopping-cart');
