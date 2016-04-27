@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Product;
 use App\Http\Requests;
 use Illuminate\Http\Request;
 
@@ -23,7 +23,8 @@ class HomeController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index() {
-        return view('welcome');
+        $products = Product::orderBy('created_at')->take(3)->get();
+        return view('welcome', compact('products'));
     }
     
     public function about() {

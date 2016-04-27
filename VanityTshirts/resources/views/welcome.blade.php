@@ -41,38 +41,20 @@
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
             <div class="row">
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img src="{{asset('img/geek/pocket_protector.png')}}" alt="Geek Pocket Protector T-shirt">
-                        <div class="caption">
-                            <h3>For the Nerd trapped inside all of us!</h3>
-                            <p>...</p>
-                            <p><a href="" class="btn btn-success" role="button">Get Geeky</a></p>
+                @foreach($products as $product)
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+<!--                            <img src="{{asset('imgages/geek/pocket_protector.png')}}" alt="Geek Pocket Protector T-shirt">-->
+                            <img src="{{URL::to('/')}}/{{$product->picture}}" alt="{{$product->name}}">
+                            <div class="caption">
+                                <h3>{{$product->name}}</h3>
+                                <p>{{$product->description}}</p>
+                                <p><a href="" class="btn btn-success" role="button">Get Geeky</a></p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img src="{{asset('img/bacon/Press_button_bacon.png')}}" alt="Press Button for Bacon T-shirt">
-                        <div class="caption">
-                            <h3>View our all NEW Bacon T-shirt line!</h3>
-                            <p>...</p>
-                            <p><a href="" class="btn btn-success" role="button">View more Bacon</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img src="{{asset('img/quotes/Inigo.png')}}" alt="My name is Inigo T-shirt">
-                        <div class="caption">
-                            <h3>Custom Quotes, made to order.</h3>
-                            <p>...</p>
-                            <p><a href="" class="btn btn-success" role="button">Quotable Quotes</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>  
-              
+                @endforeach                
+            </div>                
         </div>
     </div>
 </div>
