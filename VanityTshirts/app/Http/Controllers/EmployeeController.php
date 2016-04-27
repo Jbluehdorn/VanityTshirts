@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Employee;
-use Illuminate\Http\Request;
+//use Illuminate\Http\Request;
+use Request;
 
 use App\Http\Requests;
 
@@ -29,7 +30,18 @@ class EmployeeController extends Controller
     }
 
     public function newEmployee(Request $request) {
-        $emp = new Employee($request->all());
+        $imgDirectory = 'images';
+        $defaultImg = $imgDirectory . '/default.png';
+
+        $emp = new Employee($request::all());
+
+        if($request::hasFile('picture')) {
+            $file = $request::file('picture');
+            $file->move(public_path() . '/' . $imgDirectory, $file->getClientOriginalName());
+            $emp->picture = $imgDirectory . '/' . $file->getClientOriginalName();
+        } else {
+            $emp->picture = $defaultImg;
+        }
 
         $emp->save();
     }
