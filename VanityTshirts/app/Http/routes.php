@@ -34,7 +34,9 @@ Route::post('/admin/employees/new', 'EmployeeController@newEmployee');
 //    Products
 //---------------------------
 Route::get('/admin/products', 'ProductController@all');
+Route::get('/admin/products/new', 'ProductController@newForm');
 Route::get('/admin/products/{product}', 'ProductController@show');
+Route::post('/admin/products/new', 'ProductController@newProduct');
 
 Route::get('/about', 'HomeController@about');
 Route::get('/products', 'HomeController@products');

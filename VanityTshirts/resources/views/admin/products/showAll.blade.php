@@ -9,6 +9,6 @@
             @endforeach
         </ul>
 
-        <a href="/admin/products/new"><button class="btn btn-default" type="button">New Product</button</a>
+        <a href="/admin/products/new"><button class="btn btn-default" type="button">New Product</button></a>
     </div>
 @stop
