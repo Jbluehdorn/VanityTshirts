@@ -19,6 +19,26 @@
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
 </head>
 <body id="app-layout">
+    @if(Auth::user() && Auth::user()->isAdmin())
+        <nav class="navbar navbar-default navbar-static-top" id="adminNav">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="/admin" class="navbar-brand">
+                        Admin
+                    </a>
+                </div>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="{{url('/admin/employees')}}">Employees</a></li>
+                        <li><a href="{{url('/admin/products')}}">Products</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <i class="fa fa-times" id="adminNavClose"></i>
+        </nav>
+    @endif
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">
@@ -80,5 +100,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
+    <script src="{{asset('js/scripts.js')}}"></script>
 </body>
 </html>

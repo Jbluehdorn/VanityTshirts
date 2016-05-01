@@ -34,3 +34,30 @@ footer{
 .fa-btn {
     margin-right: 6px;
 }
+
+/*=========================
+/*       Admin
+/*=========================*/
+
+#adminNav {
+    margin-bottom:0;
+    background: #ee962b;
+    color: white;
+    position: relative;
+}
+
+#adminNav a {
+    color: white;
+}
+
+#adminNavClose {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#adminNavClose:hover {
+    color: #bbb;
+}

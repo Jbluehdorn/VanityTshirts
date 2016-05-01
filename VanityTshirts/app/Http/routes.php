@@ -17,11 +17,24 @@ Route::auth();
 
 Route::get('/home', 'HomeController@index');
 
+//============================
+//      Admin routes
+//============================
 Route::get('/admin', 'AdminController@index');
+
+//----------------------------
+//     Employees
+//----------------------------
 Route::get('/admin/employees', 'EmployeeController@all');
 Route::get('/admin/employees/new', 'EmployeeController@newForm');
 Route::get('/admin/employees/{emp}', 'EmployeeController@show');
 Route::post('/admin/employees/new', 'EmployeeController@newEmployee');
+
+//---------------------------
+//    Products
+//---------------------------
+Route::get('/admin/products', 'ProductController@all');
+Route::get('/admin/products/{product}', 'ProductController@show');
 
 Route::get('/about', 'HomeController@about');
 Route::get('/products', 'HomeController@products');

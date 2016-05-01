@@ -18,15 +18,15 @@ class EmployeeController extends Controller
     public function all() {
         $employees = Employee::orderBy('lastName', 'firstName')->get(['firstName', 'lastName', 'id']);
 
-        return view('employees.showAll', compact('employees'));
+        return view('admin.employees.showAll', compact('employees'));
     }
 
     public function show(Employee $emp){
-        return view('employees.show', compact('emp'));
+        return view('admin.employees.show', compact('emp'));
     }
 
     public function newForm() {
-        return view('employees.new');
+        return view('admin.employees.new');
     }
 
     public function newEmployee(Request $request) {
@@ -44,5 +44,7 @@ class EmployeeController extends Controller
         }
 
         $emp->save();
+
+        return redirect('/admin/employees');
     }
 }
