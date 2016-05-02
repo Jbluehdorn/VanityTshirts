@@ -26,7 +26,7 @@
                         <tr>
                             <td>2</td>
                             <td>Peace Love and Bacon </td>
-                            <td><img class="cart-img" src="{{asset('img/bacon/Peace_Love_Bacon.png')}}" alt="Peace Love and Bacon T-shirt"></td>
+                            <td><img class="cart-img" src="{{asset('images/bacon/Peace_Love_Bacon.png')}}" alt="Peace Love and Bacon T-shirt"></td>
                             <td>Adult Sm</td>
                             <td>Blue</td>
                             <td>10.00</td>
