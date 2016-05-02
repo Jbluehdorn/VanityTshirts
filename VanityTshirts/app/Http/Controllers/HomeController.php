@@ -32,7 +32,7 @@ class HomeController extends Controller
     }
     
     public function products() {
-        $products = Product::orderBy('price')->get();
+        $products = Product::orderBy('cost')->get();
         return view('products', compact('products'));
     }
     public function cart() {

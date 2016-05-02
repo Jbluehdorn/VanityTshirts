@@ -15,9 +15,14 @@
             <div class="row">
                 @foreach($products as $product)
                     <div class="col-xs-3">
+                        <h5><strong>{{$product->name}}</strong></h5>
+                        <div class="label label-danger price">
+                            <span class="glyphicon glyphicon-tag"></span> {{$product->cost}}
+                        </div>
                     <div class="thumbnail">
                         <img src="{{URL::to('/')}}/{{$product->picture}}" alt="{{$product->name}}">
                         <div class="caption">
+                            <p>{{$product->description}}</p>
                             <form action="" method="post">
                                 <div class="form-group">
                                     <label for="color">Pick color</label>

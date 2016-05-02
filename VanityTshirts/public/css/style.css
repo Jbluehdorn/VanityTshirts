@@ -10,6 +10,13 @@ body {
     width:900px;
     margin-bottom: 20px;
 }
+.price{
+    font-size:14px;
+    position: absolute;
+    top:30px;
+    right:0px;
+    padding: 10px;
+}
 .media{
     margin-bottom: 25px;
 }
