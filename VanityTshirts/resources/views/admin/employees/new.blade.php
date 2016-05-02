@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <div class="panel panel-default">
-            <div class="panel-heading"><h3>New Customer</h3></div>
+            <div class="panel-heading"><h3>New Employee</h3></div>
             <div class="panel-body">
                 <form action="/admin/employees/new" method="POST" enctype="multipart/form-data">
                     <div class="row">
