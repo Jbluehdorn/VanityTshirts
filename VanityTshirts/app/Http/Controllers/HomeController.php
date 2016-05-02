@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Product;
+use App\Employee;
 use App\Http\Requests;
 use Illuminate\Http\Request;
 
@@ -28,7 +29,8 @@ class HomeController extends Controller
     }
     
     public function about() {
-        return view('about');
+        $employees = Employee::orderBy('lastName')->get();
+        return view('about', compact('employees'));
     }
     
     public function products() {

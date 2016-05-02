@@ -15,7 +15,22 @@
             </div><!--end panel-->
         
             <div class="row">
-                <div class="col-md-6">
+                @foreach($employees as $employee)
+                    <div class="col-lg-12">
+                        <div class="media">
+                            <div class="media-left">
+                                <img class="media-object" src="{{URL::to('/')}}/{{$employee->picture}}" alt="{{$employee->firstName}} {{$employee->lastName}}">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">{{$employee->firstName}} {{$employee->lastName}} - {{$employee->position}}</h3>
+                                <h4>{{$employee->motto}}</h4>
+                                <p>{{$employee->bio}}</p>
+                                <p>{{$employee->email}}</p>
+                            </div>
+                        </div><!--end media-->
+                    </div>
+                @endforeach
+<!--            <div class="col-md-6">
                     <div class="media">
                         <div class="media-left">
                             <a href="#">
@@ -28,7 +43,7 @@
                             commune accumsan quaestio eos ut, ex est oratio persequeris. Cetero sanctus eu vim, 
                             idque efficiendi mediocritatem et nec.
                         </div>
-                    </div><!--end media-->
+                    </div>
                 </div>
                 <div class="col-md-6">
                     <div class="media">
@@ -43,7 +58,7 @@
                             commune accumsan quaestio eos ut, ex est oratio persequeris. Cetero sanctus eu vim, 
                             idque efficiendi mediocritatem et nec. 
                         </div>
-                    </div><!--end media-->
+                    </div>end media
                 </div>
                 <div class="col-md-6">
                     <div class="media">
@@ -58,7 +73,7 @@
                             commune accumsan quaestio eos ut, ex est oratio persequeris. Cetero sanctus eu vim, 
                             idque efficiendi mediocritatem et nec. 
                         </div>
-                    </div><!--end media-->
+                    </div>end media
                 </div>
                 <div class="col-md-6">
                     <div class="media">
@@ -73,9 +88,9 @@
                             commune accumsan quaestio eos ut, ex est oratio persequeris. Cetero sanctus eu vim, 
                             idque efficiendi mediocritatem et nec. 
                         </div>
-                    </div><!--end media-->
-                </div>
-            </div>
+                    </div>end media
+                </div>-->
+            </div><!--end row-->
         </div>
     </div><!--end row-->
 </div>
