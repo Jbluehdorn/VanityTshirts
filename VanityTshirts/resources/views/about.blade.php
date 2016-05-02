@@ -25,71 +25,11 @@
                                 <h3 class="media-heading">{{$employee->firstName}} {{$employee->lastName}} - {{$employee->position}}</h3>
                                 <h4>{{$employee->motto}}</h4>
                                 <p>{{$employee->bio}}</p>
-                                <p>{{$employee->email}}</p>
+                                <p><a href="">{{$employee->email}}</a></p>
                             </div>
                         </div><!--end media-->
                     </div>
                 @endforeach
-<!--            <div class="col-md-6">
-                    <div class="media">
-                        <div class="media-left">
-                            <a href="#">
-                                <img class="media-object" src="{{asset('images/default.png')}}" alt="Employee photo">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Employee of the Month</h4>
-                            Here is some useless information about this employee. Lorem ipsum dolor sit amet, 
-                            commune accumsan quaestio eos ut, ex est oratio persequeris. Cetero sanctus eu vim, 
-                            idque efficiendi mediocritatem et nec.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="media">
-                        <div class="media-left">
-                            <a href="#">
-                                <img class="media-object" src="{{asset('images/default.png')}}" alt="Employee photo">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Inigo Montoya</h4>
-                            Here is some useless information about this employee. Lorem ipsum dolor sit amet, 
-                            commune accumsan quaestio eos ut, ex est oratio persequeris. Cetero sanctus eu vim, 
-                            idque efficiendi mediocritatem et nec. 
-                        </div>
-                    </div>end media
-                </div>
-                <div class="col-md-6">
-                    <div class="media">
-                        <div class="media-left">
-                            <a href="#">
-                                <img class="media-object" src="{{asset('images/default.png')}}" alt="Employee photo">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Pedro Hernandez</h4>
-                            Here is some useless information about this employee. Lorem ipsum dolor sit amet, 
-                            commune accumsan quaestio eos ut, ex est oratio persequeris. Cetero sanctus eu vim, 
-                            idque efficiendi mediocritatem et nec. 
-                        </div>
-                    </div>end media
-                </div>
-                <div class="col-md-6">
-                    <div class="media">
-                        <div class="media-left">
-                            <a href="#">
-                                <img class="media-object" src="{{asset('images/default.png')}}" alt="Employee photo">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Achmed the Terrorist</h4>
-                            Here is some useless information about this employee. Lorem ipsum dolor sit amet, 
-                            commune accumsan quaestio eos ut, ex est oratio persequeris. Cetero sanctus eu vim, 
-                            idque efficiendi mediocritatem et nec. 
-                        </div>
-                    </div>end media
-                </div>-->
             </div><!--end row-->
         </div>
     </div><!--end row-->
